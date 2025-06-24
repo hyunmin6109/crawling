@@ -8,11 +8,8 @@ from playwright.async_api import async_playwright
 MAX_COUNT = 1000
 
 CATEGORY_LIST = [
-    {"id": "18242448", "name": "여성_트렌드슈즈"},
-    {"id": "18242456", "name": "여성_스니커즈_운동화"},
-    {"id": "18242467", "name": "여성_러닝화_워킹화"},
-    {"id": "18242480", "name": "여성_샌들_슬리퍼"},
-    {"id": "18242491", "name": "여성_구두"},
+    {"id": "18254183", "name": "여성_레인부츠"},
+    {"id": "18255502", "name": "여성_메리제인슈즈"}
 ]
 
 async def scrape_category(category_id, category_name):
